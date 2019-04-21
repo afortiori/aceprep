@@ -26,8 +26,33 @@ header a{
 .profile{
   width:90vw!important;
 }
+}
+@media only screen and (max-width:400px)
+{
+  #frontPage h1
+  {
+    font-size: 5vh;
+  }
 
+  #frontPage p{
+    font-size: 3vh;
+  }
 
+  footer, header{
+    height: :10vh !important;
+  }
+}
+
+@media only screen and (max-width:220px)
+{
+  #frontPage h1
+  {
+    font-size: 4vh;
+  }
+
+  #frontPage p{
+    font-size: 2.3vh;
+  }
 }
 @media only screen and (max-width: 600px)
 {
@@ -228,7 +253,7 @@ justify-content: flex-start;
 align-items: baseline;
 background-color: 	#E51F21;
 width: 100vw;
-height:5vh;
+height:auto;
 }
 
 #frontPage footer, #contact footer{
