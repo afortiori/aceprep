@@ -178,6 +178,7 @@ input, textarea{
   flex-direction: column;
   margin-left: 5vw;
   margin-right: 5vw;
+  align-items: flex-start;
 }
 /*about page styles*/
 .section{
